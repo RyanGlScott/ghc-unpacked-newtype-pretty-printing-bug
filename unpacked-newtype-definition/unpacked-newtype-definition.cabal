@@ -1,0 +1,20 @@
+cabal-version:      1.24
+name:               unpacked-newtype-definition
+version:            0.1.0.0
+-- synopsis:
+-- description:
+license:            BSD3
+license-file:       LICENSE
+author:             Ryan Scott
+maintainer:         ryan.gl.scott@gmail.com
+-- copyright:
+category:           Testing
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+-- extra-source-files:
+
+library
+    exposed-modules:  Lib
+    build-depends:    base >= 4 && < 5
+    hs-source-dirs:   src
+    default-language: Haskell2010

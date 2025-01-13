@@ -1,0 +1,3 @@
+packages:
+  ./unpacked-newtype-definition
+  ./unpacked-newtype-consumer
